@@ -320,9 +320,9 @@ void transitCondition() {
 
         display.clearDisplay();  //Clear test display off
         display.setCursor(0, 0);  //Reset cursor
-        display.print("The # ");
+        display.print("The bus #");
         display.print(busNumber);
-        display.println(" leaves in ");
+        display.println(" leaves at ");
         display.println(niceRealTime);               
         display.display();  //Display that display 
       }
