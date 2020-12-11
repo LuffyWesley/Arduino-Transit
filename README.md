@@ -31,6 +31,9 @@ Link to io.adafruit.com [dashboard](https://io.adafruit.com/aylorob/dashboards/s
 ## Final Look
 ![](images/inside.jpg)
 ![](images/final.jpg)
+## Demo Video
+![](images/HCDE_440_ Arduino_Transit.mp4)
+<iframe width="1920" height="1080" src="https://www.youtube-nocookie.com/embed/OHrY2ZqCL6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Configuration
 Register for a free developer account from [Here](https://developer.here.com/documentation/transit/topics/what-is.html) to get keys for their Public Transit API. Visit [here](https://www.latlong.net) to get latitide and longitude information. Visit [wikipedia](https://en.wikipedia.org/wiki/List_of_UTC_time_offsets#UTC%E2%88%9207:00,_T) to get UTC time offsets to get current date and time. Visit [ArduinoJson](https://arduinojson.org/v6/assistant/) to get help resizing the buffer (const size_t capacity).
