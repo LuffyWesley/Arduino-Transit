@@ -26,6 +26,9 @@ Link to io.adafruit.com [dashboard](https://io.adafruit.com/aylorob/dashboards/s
 8. [Button Library](https://blogs.uw.edu/fizzlab/technology/libraries/buttonlib), download ButtonLib.zip, unzip then place folder in Arduino/libraries folder
 9. [NTPClient](https://github.com/taranais/NTPClient), download as zip, unzip the folder, rename from NTPClient-master to NTPClient, move NTPClient folder to Arduino/libraries folder
 
+## Configuration
+Register for a free developer account from [Here](https://developer.here.com/documentation/transit/topics/what-is.html) to get keys for their Public Transit API. Visit [here](https://www.latlong.net) to get latitide and longitude information. Visit [wikipedia](https://en.wikipedia.org/wiki/List_of_UTC_time_offsets#UTC%E2%88%9207:00,_T) to get UTC time offsets to get current date and time. Visit [ArduinoJson](https://arduinojson.org/v6/assistant/) to get help resizing the buffer (const size_t capacity).
+
 ## Schematic
 ![](images/schematic.png)
 ## CAD Model
@@ -33,6 +36,3 @@ Link to io.adafruit.com [dashboard](https://io.adafruit.com/aylorob/dashboards/s
 ## Final Look
 ![](images/inside.jpg)
 ![](images/final.jpg)
-
-## Configuration
-Register for a free developer account from [Here](https://developer.here.com/documentation/transit/topics/what-is.html) to get keys for their Public Transit API. Visit [here](https://www.latlong.net) to get latitide and longitude information. Visit [wikipedia](https://en.wikipedia.org/wiki/List_of_UTC_time_offsets#UTC%E2%88%9207:00,_T) to get UTC time offsets to get current date and time. Visit [ArduinoJson](https://arduinojson.org/v6/assistant/) to get help resizing the buffer (const size_t capacity).
