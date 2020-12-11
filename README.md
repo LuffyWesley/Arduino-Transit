@@ -5,6 +5,8 @@ This project started as something for Seattle Children’s, but grew into someth
 
 That took some doing. Not because displaying the information was hard, but because there was a lot of work that needed to be done behind the scenes. That being said, our project managed to complete our objectives almost to the letter. When it came to displaying location of people, we created a robust system that allowed location input both physically and over the internet. This hybrid approach allows for easy information sharing across multiple enclosures, with a minimum of calls. There was a lot of work on making a streamlined enclosure to house all of it, but ultimately it was relatively simple. Unfortunately, the same cannot be said about the transit data. The first problem was that real time data of the shuttles was not available to the public. Even APIs that had them recorded did not have any data besides where they stopped. Due to this, we had to shift to showing real time data for public transit between the hospital owned buildings. Although it is less convenient than the shuttles, by keeping tabs on the real time data we were able to make public transport a more consistent option. It took three different APIs and various data reading methods, but finally we were able to parse it to the point where we could display the data. With both of our objectives completed to the best of our ability, we were able to create something that could fit in on any workstation or computer on wheels at the hospital.
 
+[Youtube video](https://youtu.be/vJwJYBlnk2w)
+
 Link to io.adafruit.com [dashboard](https://io.adafruit.com/aylorob/dashboards/seattle-childrens-person-tracker). 
 
 ## Things Needed
@@ -31,9 +33,6 @@ Link to io.adafruit.com [dashboard](https://io.adafruit.com/aylorob/dashboards/s
 ## Final Look
 ![](images/inside.jpg)
 ![](images/final.jpg)
-## Demo Video
-![](images/HCDE_440_ Arduino_Transit.mp4)
-<iframe width="1920" height="1080" src="https://www.youtube-nocookie.com/embed/OHrY2ZqCL6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Configuration
 Register for a free developer account from [Here](https://developer.here.com/documentation/transit/topics/what-is.html) to get keys for their Public Transit API. Visit [here](https://www.latlong.net) to get latitide and longitude information. Visit [wikipedia](https://en.wikipedia.org/wiki/List_of_UTC_time_offsets#UTC%E2%88%9207:00,_T) to get UTC time offsets to get current date and time. Visit [ArduinoJson](https://arduinojson.org/v6/assistant/) to get help resizing the buffer (const size_t capacity).
