@@ -5,9 +5,8 @@ This project started as something for Seattle Children’s, but grew into someth
 
 That took some doing. Not because displaying the information was hard, but because there was a lot of work that needed to be done behind the scenes. That being said, our project managed to complete our objectives almost to the letter. When it came to displaying location of people, we created a robust system that allowed location input both physically and over the internet. This hybrid approach allows for easy information sharing across multiple enclosures, with a minimum of calls. There was a lot of work on making a streamlined enclosure to house all of it, but ultimately it was relatively simple. Unfortunately, the same cannot be said about the transit data. The first problem was that real time data of the shuttles was not available to the public. Even APIs that had them recorded did not have any data besides where they stopped. Due to this, we had to shift to showing real time data for public transit between the hospital owned buildings. Although it is less convenient than the shuttles, by keeping tabs on the real time data we were able to make public transport a more consistent option. It took three different APIs and various data reading methods, but finally we were able to parse it to the point where we could display the data. With both of our objectives completed to the best of our ability, we were able to create something that could fit in on any workstation or computer on wheels at the hospital.
 
-[Youtube video](https://youtu.be/vJwJYBlnk2w)
-
-Link to io.adafruit.com [dashboard](https://io.adafruit.com/aylorob/dashboards/seattle-childrens-person-tracker). 
+* [Youtube video](https://youtu.be/vJwJYBlnk2w)
+* Link to io.adafruit.com [dashboard](https://io.adafruit.com/aylorob/dashboards/seattle-childrens-person-tracker). 
 
 ## Things Needed
 1. Feather HUZZAH ESP8266 board
